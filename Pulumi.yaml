@@ -1,0 +1,6 @@
+name: pulumi-ssm-jump-demo
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Demo Pulumi project for Private RDS via SSM Port Forwarding Jump Host with 2-Layer 5-Minute Inactivity Auto-Shutdown

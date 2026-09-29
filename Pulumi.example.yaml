@@ -1,0 +1,7 @@
+config:
+  aws:region: us-east-1
+  pulumi-ssm-jump-demo:db_name: demo_db
+  pulumi-ssm-jump-demo:db_user: postgres
+  # Set securely via: pulumi config set --secret db_password "YourStrongPasswordHere!"
+  # pulumi-ssm-jump-demo:db_password:
+  #   secure: [ENCRYPTED_SECRET]

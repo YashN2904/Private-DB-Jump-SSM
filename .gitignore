@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Pulumi stack state and stack-specific configs (contains secrets or local configuration)
+.pulumi/
+Pulumi.*.yaml
+!Pulumi.yaml
+!Pulumi.example.yaml
+
+# Credentials, tokens, and environment files
+.env
+.env.*
+*.pem
+*.key
+*.token
+
+# Logs & temporary files
+*.log
+
+# OS & Editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
